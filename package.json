@@ -1,0 +1,27 @@
+{
+  "name": "group-police",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that filters links and banned words from non-admin users",
+  "main": "dist/bot.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot.js",
+    "dev": "ts-node src/bot.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["whatsapp", "bot", "link-filter", "banned-words", "pairing-code"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}

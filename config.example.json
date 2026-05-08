@@ -1,0 +1,15 @@
+{
+  "adminPhoneNumbers": [
+    "12015551234",
+    "441234567890"
+  ],
+  "groupChatIds": [],
+  "bannedWords": [
+    "for sale",
+    "cheap account",
+    "account available",
+    "sale",
+    "for sell",
+    "sell"
+  ]
+}
